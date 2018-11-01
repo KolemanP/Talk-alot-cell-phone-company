@@ -12,8 +12,7 @@ package talkalot;
 public abstract class PhoneCall {
     String phoneNumber;
     double callPrice;
-    abstract double getcallPrice(){};
-};
+    abstract double getcallPrice();
     
     public String getPhoneNumber() {
         return phoneNumber;
@@ -28,7 +27,5 @@ public abstract class PhoneCall {
     
     PhoneCall(String pNum){
         this.callPrice = 0.0;
-    }
-    
-    
+    }  
 }
