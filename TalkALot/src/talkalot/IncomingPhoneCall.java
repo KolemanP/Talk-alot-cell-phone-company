@@ -22,12 +22,12 @@ public class IncomingPhoneCall extends PhoneCall{
     }
 
     @Override
-    String getPhoneNum(String phoneNumber) {
-        super(phoneNumber); 
+    void getInfo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void getInfo() {
+    String getPhoneNum() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
