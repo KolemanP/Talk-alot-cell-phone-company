@@ -9,10 +9,27 @@ package talkalot;
  *
  * @author kp0885055
  */
-public class IncomingPhoneCall extends PhoneCall{
-    
-    
-    
-    
-    double Price = 0.02;
+public class IncomingPhoneCall extends PhoneCall{ 
+    double price = 0.02;
+
+    public IncomingPhoneCall(String pNum) {
+        super(pNum);
+    }
+
+    @Override
+    double getCallPrice() {
+       return price = 0.02;
+    }
+
+    @Override
+    String getPhoneNum(String phoneNumber) {
+        super(phoneNumber); 
+    }
+
+    @Override
+    void getInfo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
 }
