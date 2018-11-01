@@ -12,4 +12,7 @@ package talkalot;
 public class IncomingPhoneCall extends PhoneCall{
     
     
+    
+    
+    double Price = 0.02;
 }
