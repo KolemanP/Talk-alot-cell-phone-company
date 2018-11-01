@@ -15,10 +15,6 @@ public abstract class PhoneCall {
     abstract double getCallPrice();
     abstract String getPhoneNum();
     abstract void getInfo();
-    
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }   
 
     public void setCallPrice(double callPrice) {
         this.callPrice = callPrice;
