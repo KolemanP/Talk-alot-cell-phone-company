@@ -35,13 +35,10 @@ public class OutgoingPhoneCall extends PhoneCall
         System.out.println("Phone number: " + this.getPhoneNum());
         System.out.println("\nPrice per minute: 0.04");
         System.out.println("\nNumber of minutes: " + this.callTime);
-        System.out.println("Total Price: " + getCallPrice(this.callTime));
+        System.out.println("Total Price: " + getCallPrice());
     }
 
-    @Override
-    double getCallPrice() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+
 
 
 
