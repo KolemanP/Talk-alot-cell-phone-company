@@ -1,3 +1,4 @@
+ 
 
 package talkalot;
 
@@ -15,11 +16,11 @@ public class OutgoingPhoneCall extends PhoneCall
     }
     
     @Override
-    public double getCallPrice(double time)
+    double getCallPrice()
     {
-        double price;
-        price = time * .04;
-        return price;
+        double callPrice;
+        callPrice = callTime * .04;
+        return callPrice;
     }
     
     @Override 
@@ -36,5 +37,12 @@ public class OutgoingPhoneCall extends PhoneCall
         System.out.println("\nNumber of minutes: " + this.callTime);
         System.out.println("Total Price: " + getCallPrice(this.callTime));
     }
+
+    @Override
+    double getCallPrice() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
 
 }
